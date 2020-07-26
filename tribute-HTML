@@ -1,0 +1,31 @@
+<main id="main">
+  <h1 id="title">David Attenborough</h1> 
+  
+  <figure id="img-div">
+    <div id="image">
+      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2F61%2F62%2Fcc%2F6162ccf5102fd803599538ffe49f9dac--david-attenborough-beautiful-people.jpg&f=1&nofb=1" alt="Sir Attenborough hand feeds a mother Orangutan.">
+    </div>
+    <br>
+    <figcaption id="img-caption">
+      A mother Orangutan hugging her child while being fed by Sir David Attenborough.
+    </figcaption>
+  </figure>
+  
+  <section id="tribute-info">
+    <h2>15 Fascinating Facts About Sir David Attenborough</h2>
+    <br>
+    <a id="tribute-link" href="https://www.natgeokids.com/uk/discover/science/nature/david-attenborough-facts/" target="_blank">Continue reading here.</a>
+    
+    <p>Source <a href="https://www.natgeokids.com/uk/discover/science/nature/david-attenborough-facts/">National Geographic Kids</a></p>
+    
+    <blockquote cite="">
+      <p>"It seems to me that the natural world is the greates source of excitement; the greatest source of visual beauty; the greatest source of intellectual interest. It is the greatest source of so much in life that makes life worth living."</p>
+      <cite>-- David Attenborough --</cite>
+    </blockquote>
+
+    <h3>
+     To read more find our more facts about him, head to his
+      <a id="tribute-link" href="https://en.wikipedia.org/wiki/David_Attenborough" target="_blank">Wikipedia page</a>      
+  </h3>
+  </section>
+</main>

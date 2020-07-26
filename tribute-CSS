@@ -1,0 +1,72 @@
+html{
+  font-size: 10px;
+}
+
+body{
+  font-family:;
+  font-size:1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  color:;
+  margin: 0;
+}
+
+h1{
+  font-sizw: 4rem;
+  margin-bottom: 0;
+}
+
+@media(max-width: 460px){
+  h1{
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+  
+  #main{
+    margin: 0;
+  }
+  
+  #img-caption{
+    font-size: 1.4rem;
+  }
+}
+
+h2{
+  font-size: 3.25rem;
+}
+
+a{
+  color: ;
+}
+
+a:visited{
+  color: ;
+}
+
+a:hover{
+  color: green;
+}
+
+#main{
+  margin: ;
+  padding: ;
+  border-radius: ;
+  background: ;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div{
+  background: white;
+  padding: 10px;
+  marginL 0;
+}
+
+#margin-caption{
+  margin: 15px 0 5px 0;
+}

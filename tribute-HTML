@@ -1,24 +1,39 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
 <main id="main">
   <h1 id="title">David Attenborough</h1> 
   
   <figure id="img-div">
-    <div id="image">
-      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2F61%2F62%2Fcc%2F6162ccf5102fd803599538ffe49f9dac--david-attenborough-beautiful-people.jpg&f=1&nofb=1" alt="Sir Attenborough hand feeds a mother Orangutan.">
-    </div>
-    <br>
+    <img id="image" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2F61%2F62%2Fcc%2F6162ccf5102fd803599538ffe49f9dac--david-attenborough-beautiful-people.jpg&f=1&nofb=1" alt="Sir Attenborough hand feeds a mother Orangutan."/>
+         
     <figcaption id="img-caption">
       A mother Orangutan hugging her child while being fed by Sir David Attenborough.
     </figcaption>
   </figure>
   
   <section id="tribute-info">
-    <h2>15 Fascinating Facts About Sir David Attenborough</h2>
-    <br>
-    <a id="tribute-link" href="https://www.natgeokids.com/uk/discover/science/nature/david-attenborough-facts/" target="_blank">Continue reading here.</a>
+    <h2>5 Facts About Sir David Attenborough</h2>
+    <ol>
+      <li>David Frederick Attenborough was born in England on May 8th, 1926. He is the middle of three long-lived sons whom was an actor and an executive, respectively.</li>
+     
+      <li>As a child, he spent his childhood collecting stones, fossils as well as natural specimens.</li>
+      
+      <li>Attenborough had attended a life changing lecture that was held in 1963. The famous conservationist Archibald Belaney (a.k.a Grey Owk) talked about the importance of saving the environment. That meeting inspired Attenborough's growing passion for flora and fauna, as well as for the need for environmental awareness.</li>
+      
+      <li>While he was being educated at Wyggeston Grammar School for Boys in Leicester, he had won a shcolarship to Clare College, Cambrige in 1945, where he studied geology and zoology and obtained a degree in natural sciences.</li>
+      
+      <li>1947 was the year he was called up for national service in the Royal Navy and spent two years stationed in North Wales and the Firth of Forth.</li>
+    </ol>
     
-    <p>Source <a href="https://www.natgeokids.com/uk/discover/science/nature/david-attenborough-facts/">National Geographic Kids</a></p>
+    <p id="source">Source 
+    <ul>
+      <li><a id="tribute-link" href="https://www.factinate.com/people/facts-david-attenborough/"  target="_blank">42 Worldly Facts About David Attenborough, The Voice Of The BBC</a></li>
+      <li><a id="tribute-link" href="https://en.wikipedia.org/wiki/David_Attenborough"  target="_blank">Wikipedia</a></li>       
+    </ul>
+    </p>
     
-    <blockquote cite="">
+    <blockquote cite="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2F9a%2F37%2F13%2F9a371307d5777fb7672f54b36e26221c--david-attenborough-people-quotes.jpg&f=1&nofb=1">
       <p>"It seems to me that the natural world is the greates source of excitement; the greatest source of visual beauty; the greatest source of intellectual interest. It is the greatest source of so much in life that makes life worth living."</p>
       <cite>-- David Attenborough --</cite>
     </blockquote>

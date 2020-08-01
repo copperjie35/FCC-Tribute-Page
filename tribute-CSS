@@ -1,57 +1,57 @@
-html{
-  font-size: 10px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap');
+
+html{  font-size: 10px;}
 
 body{
-  font-family:;
+  font-family: 'Oswald', 'Open Sans', san-serif;
   font-size:1.6rem;
   line-height: 1.5;
   text-align: center;
-  color:;
-  margin: 0;
+  color: #00001a;
+  margin: 10%;
+  background-color: white;
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fe9%2Fef%2F4b%2Fe9ef4bbd963fee4e2fcf65334706ce15.jpg&f=1&nofb=1');
+  background-repeat: no-repeat;
+  background-size: cover;  
 }
 
-h1{
-  font-sizw: 4rem;
+h1{  
+  text-transform: uppercase;
+  font-size: 6rem;
   margin-bottom: 0;
 }
 
 @media(max-width: 460px){
-  h1{
-    font-size: 3.5rem;
-    line-height: 1.2;
-  }
-  
-  #main{
-    margin: 0;
-  }
-  
-  #img-caption{
-    font-size: 1.4rem;
-  }
+  h1{    font-size: 4.5rem;
+         line-height: 1.2;  
+    }
 }
 
-h2{
-  font-size: 3.25rem;
+h2{  
+  margin: 10% auto;
+  text-align: center;
+  font-size: 2em;
+  text-decoration: underline;
 }
 
-a{
-  color: ;
-}
+a{  color: ;}
 
-a:visited{
-  color: ;
-}
+a:visited{  color: blue;}
 
-a:hover{
-  color: green;
-}
+a:hover{  color: green;}
 
 #main{
-  margin: ;
-  padding: ;
-  border-radius: ;
-  background: ;
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #e6e6ff;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
 }
 
 img{
@@ -67,6 +67,41 @@ img{
   marginL 0;
 }
 
-#margin-caption{
+#img-caption{
   margin: 15px 0 5px 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+ul{
+  margin: 10% auto;
+}
+
+li{
+  text-align: left;
+  margin-bottom: 5%;
+}
+
+#source{
+  text-decoration: underline;
+  text-align: center;
+}
+
+#tribute-link{
+  margin: 0;
+  text-align: center;
+}
+  
+blockquote{
+  font-stlye: italic;
+  max-width: 500px;
+  margin: 0 auto 50pc auto;
+  text-align: left;
 }
